@@ -1,0 +1,12 @@
+stages:
+  - build
+
+build_job:
+  image: gradle:6.9-jdk11
+  stage: build
+  script:
+    - echo "Starting Gradle build (attempting assembleDebug)"
+    - gradle -v
+    - gradle assembleDebug
+  when:
+    - branch: ["master"]
