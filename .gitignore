@@ -1,0 +1,35 @@
+*.iml
+.gradle
+/local.properties
+/.idea
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Built application files
+/*.apk
+/app/.apk
+/app/intermediates/
+/app/output/
+
+# Built native files
+/*/obj
+/*/libs
+
+# Gradle wrapper file
+gradle/wrapper/gradle-wrapper.jar
+gradle/wrapper/gradle-wrapper.jar.sha1
+
+# Default Backup Path
+*.bak
+.bak
+
+# Temporary file
+*.tmp
+*.log
+*.swp
+*~
+.DS_Store
