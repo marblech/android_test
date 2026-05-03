@@ -17,7 +17,7 @@ from datetime import datetime
 GITEE_TOKEN = "b19bf0b5be1de7a458582c619c155c3d7"
 GITEE_OWNER = "marblelog"
 GITEE_REPO = "my-android-app"
-API_BASE = f"https://gitee.com/api/v5/repos/{GITEE_OWNER}/{GITEE_REPO}"
+API_BASE = f"https://gitee.com/api/v4/repos/{GITEE_OWNER}/{GITEE_REPO}"
 CHECK_INTERVAL = 30  # 检查间隔（秒）
 MAX_RETRIES = 10  # 最大重试次数
 
